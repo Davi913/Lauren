@@ -26,12 +26,11 @@ dependencies {
         exclude(group = "org.apache.logging.log4j")
     }
 
-    implementation("com.google.guava:guava:31.0.1-jre")
+    implementation("com.google.guava:guava:32.0.0-android")
     implementation("org.yaml:snakeyaml:2.2")
     implementation("io.github.cdimascio:dotenv-java:3.0.0")
 
     implementation("org.mongodb:mongodb-driver-sync:4.11.0")
-    implementation("com.github.ben-manes.caffeine:caffeine:3.0.4")
 
     implementation("dev.lavalink.youtube:v2:1.7.2")
     implementation("dev.arbjerg:lavaplayer:0eaeee195f0315b2617587aa3537fa202df07ddc-SNAPSHOT")
